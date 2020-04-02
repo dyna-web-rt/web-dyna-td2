@@ -195,7 +195,7 @@ include "include/footer.php";
 // Exo 5
 
 <?php
-$title='Exercice n°4 (Itérations)';
+$title='Exercice n°5 (Itérations + fonctions)';
 include "include/header.php";
 include "include/fonctions.php";
 
@@ -213,3 +213,8 @@ echo div("Test de message avec la fonction div");
 
 include "include/footer.php";
  ?>
+<?php
+$array = array(1, 2, 3, 4, 5,6,7,8,9,10);
+print_r($array);
+
+?>
